@@ -20,10 +20,10 @@ function updateCandyDisplay() {
     if (index < candyCount) {
       // Assuming you have a corresponding colored candy image for each collected type
       const candyType = candyCollection[index];
-      candy.src = `jellybean_color_${candyType}.png`;
+      candy.src = `yellow_color_${candyType}.png`;
     } else {
       // Otherwise, use the grey image
-      candy.src = `jellybean_grey_${index + 1}.png`;
+      candy.src = `yellow_grey_${index + 1}.png`;
     }
   });
 }
